@@ -12,7 +12,7 @@ Welcome to the SwiftUI Movie App! This project leverages the TMDB API to display
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/swiftui-movie-app
+   git clone https://github.com/YogeshPateliOS/TMDBMovieApp.git
 2. Navigate to the project directory and open it with Xcode.
 3. Create an API key from the [TMDB Documentation](https://developer.themoviedb.org/reference/intro/getting-started).
 4. Add your TMDB API key to the API key property in the MovieEndPoint file
