@@ -14,12 +14,11 @@ enum MovieEndPoint {
     case credits(movieID: Int)
     case search(name: String)
 }
-/// https://api.themoviedb.org/3/movie/693134/credits?api_key=4e478170763204c8184c0eb526981824
-/// https://api.themoviedb.org/3/search/movie?query=Jack+Reacher&api_key=4e478170763204c8184c0eb526981824
+
 extension MovieEndPoint: EndPointType {
 
     private var apiKey: String {
-        "4e478170763204c8184c0eb526981824"
+        "ADD_YOUR_API_KEY"
     }
 
     var url: URL? {
